@@ -35,7 +35,7 @@
         android:id="@+id/output_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Output:"
+        android:text="@string/output"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Select Conversion Type:"
+        android:text="@string/select_conversion_type"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="16dp"
@@ -77,7 +77,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Convert"
+        android:text="@string/convert"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/conversion_spinner" />
 
