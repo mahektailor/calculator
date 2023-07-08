@@ -53,6 +53,26 @@
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@id/output_label" />
 
+    <TextView
+        android:id="@+id/conversion_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Select Conversion Type:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/output_text_view" />
+
+    <Spinner
+        android:id="@+id/conversion_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/conversion_label" />
+
 
 
 
